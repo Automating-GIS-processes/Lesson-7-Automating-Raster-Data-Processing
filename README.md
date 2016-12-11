@@ -1,6 +1,6 @@
 # Basics of raster data processing with Python and Gdal:
 - [**Lesson 7**](Python-and-Gdal.ipynb)
-- [**Exrcise 7**]()
+- [**Exercise 7**]()
 
 ### Online Resources:
  - [www.gdal.org/] (http://www.gdal.org/)
