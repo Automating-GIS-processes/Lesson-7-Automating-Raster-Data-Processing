@@ -1,6 +1,6 @@
 # Automating Raster Data Processing:
 - **Lesson 7:** [Basics of raster data processing with Python and Gdal](Python-and-Gdal.ipynb)
-- **Exercise 7:** [Delineate forest areas from the Global Forest Change Dataset]()
+- **Exercise 7:** [Delineate forest areas from the Global Forest Change Dataset](https://classroom.github.com/assignment-invitations/e59dfd42577e7fe6d98d19d70ecccf53)
 
 ### Online Resources:
  - [www.gdal.org/] (http://www.gdal.org/)
