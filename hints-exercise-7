@@ -4,3 +4,12 @@ PROBLEM 1:
 
 When downloading the data, pay attention to the parameters you insert for the urllib.request.urlretrieve( , ) -function. 
 The instruction there is maybe a bit unclear. You need to specify the local file name (full path to the final downloaded file) for the function to work correctly.
+
+
+
+
+
+
+
+
+
