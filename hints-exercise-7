@@ -1,4 +1,6 @@
-## Hints exercise 7: Delineating forest areas from canopy cover data
+HINTS FOR EXERCISE 7
 
-Hints will be added here if needed.
-Please raise an issue or send email if there is anything you get stuck with!
+PROBLEM 1:
+
+When downloading the data, pay attention to the parameters you insert for the urllib.request.urlretrieve( , ) -function. 
+The instruction there is maybe a bit unclear. You need to specify the full filepath (including filename with extension!) for the function to work correctly.
