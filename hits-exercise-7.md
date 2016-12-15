@@ -25,10 +25,10 @@ If running the command with `os.system()` does not work after you made sure the 
 
 ####MERGING FILES AND REDUCING THE OUTPUT RESOLUTION
 
-You might have noticed that the input data is projected in WGS84. Consequently the units of the 
-input files are in decimal degrees. 1km at the equator equals approximately 0.0083 decimal degrees and you can use this as the output resolution.
+- **Output resolution:** You might have noticed that the input data is projected in WGS84. Consequently the units of the input files are in decimal degrees. We want to store the output with a cell size of ~1km x 1km wich equals approximately to  0.0083 decimal degrees (at the equator).
+- In order to merge files with gdalwarp you need to list all input files after calling the name of the tool. 
 
-In order to merge files with gdalwarp you need to list all input files after calling the name of the tool. 
+Here is an example syntax for gdalwarp:
 
 `gdalwarp forestlayer1.tif forestlayer2.tif -tr 0.0083 0.0083 mergedForest.tif`
 
