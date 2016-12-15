@@ -28,6 +28,6 @@ input files are in decimal degrees.
 
 In order to merge files with gdalwarp you need to list all input files after calling the name of the tool. 
 
-gdalwarp forestlayer1.tif forestlayer2.tif -tr 0.0083 0.0083 mergedForest.tif
+`gdalwarp forestlayer1.tif forestlayer2.tif -tr 0.0083 0.0083 mergedForest.tif`
 
 
