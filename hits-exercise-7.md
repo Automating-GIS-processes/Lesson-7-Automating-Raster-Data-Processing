@@ -17,7 +17,7 @@
 
 Correct syntax for one file with `gdal_calc.py`
 
-`gdal_calc.py -A Hansen_GFC2015_treecover2000_10S_040E.tif --calc="A>=50" --outfile=tresholded.tif --co="COMPRESS=LZW"`
+`gdal_calc.py -A Hansen_GFC2015_treecover2000_10S_040E.tif --calc="A>=50" --outfile=forestlayer1.tif --co="COMPRESS=LZW"`
 
 Note also that the processing takes a few moments!
 If running the command with `os.system()` does not work after you made sure the syntax is correct, you can complete the exercise from the command line.
