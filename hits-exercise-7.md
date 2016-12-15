@@ -2,7 +2,7 @@
 #HINTS FOR EXERCISE 7
 
 ###PROBLEM 1:
-- make sure you 
+- you need to use the function `.splitlines()` for reading each line in the input textfile as a list item
 - When downloading the data, pay attention to the parameters you insert for the `urllib.request.urlretrieve( , )` -function. You need to specify the download link and the LOCAL FILE NAME (full path to the final downloaded file with extension .tif) for the function to work correctly. So, something like this:
 
 `urllib.request.urlretrieve( DOWNLOADLINK, LOCALFILEPATH )` # insert here the correct filepaths
