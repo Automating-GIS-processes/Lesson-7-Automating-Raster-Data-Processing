@@ -2,12 +2,13 @@
 #HINTS FOR EXERCISE 7
 
 ###PROBLEM 1:
-
-When downloading the data, pay attention to the parameters you insert for the urllib.request.urlretrieve( , ) -function. 
-You need to specify the download link and the LOCAL FILE NAME (full path to the final downloaded file with extension .tif) 
-for the function to work correctly. So, something like this:
+- make sure you 
+- When downloading the data, pay attention to the parameters you insert for the `urllib.request.urlretrieve( , )` -function. You need to specify the download link and the LOCAL FILE NAME (full path to the final downloaded file with extension .tif) for the function to work correctly. So, something like this:
 
 `urllib.request.urlretrieve( DOWNLOADLINK, LOCALFILEPATH )` # insert here the correct filepaths
+
+- There is a tiny mistake on the last line for printing the info, can you spot it (cannot concatenate str and int) : 
+`print("Download completed. Number of tiles downloaded: " + DownloadCount) # add str() around the DownloadCount -variable for printing the correct info message`
 
 
 ###PROBLEM 2:
