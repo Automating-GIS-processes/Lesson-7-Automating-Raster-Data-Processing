@@ -8,7 +8,9 @@
 `urllib.request.urlretrieve( DOWNLOADLINK, LOCALFILEPATH )` # insert here the correct filepaths
 
 - There is a tiny mistake on the last line for printing the info, can you spot it (cannot concatenate str and int) : 
-`print("Download completed. Number of tiles downloaded: " + DownloadCount) # add str() around the DownloadCount -variable for printing the correct info message`
+`print("Download completed. Number of tiles downloaded: " + DownloadCount)`
+
+Add `str()` around the DownloadCount -variable for printing the correct info message.
 
 
 ###PROBLEM 2:
